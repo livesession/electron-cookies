@@ -1,0 +1,46 @@
+{
+  "name": "@livesession/electron-cookies",
+  "version": "1.0.0",
+  "description": "",
+  "author": "LiveSession",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livesession/electron-cookies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/livesession/electron-cookies/issues"
+  },
+  "homepage": "https://github.com/livesession/electron-cookies#readme",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "targets": {
+    "main": {
+      "includeNodeModules": {
+        "electron": false
+      }
+    }
+  },
+  "alias": {
+    "tough-cookie": "./node_modules/tough-cookie"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.7.0",
+    "@parcel/transformer-typescript-types": "^2.7.0",
+    "@types/tough-cookie": "^4.0.2",
+    "parcel": "^2.7.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "tough-cookie": "^4.1.2",
+    "tough-cookie-web-storage-store": "file:../tough-cookie-web-storage-store"
+  },
+  "peerDependencies": {
+    "electron": "*"
+  }
+}

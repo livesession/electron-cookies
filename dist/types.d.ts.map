@@ -1,0 +1,1 @@
+{"mappings":"AAGA;IACI,MAAM,CAAC,EAAE,MAAM,CAAA;CAClB;AA0CD,uBAAuB,OAAO,CAAC,EAAE,QAAQ,QAgBxC;AAED,2BAA2B,IAAI,CAE9B","sources":["src/src/cookies.ts","src/src/index.ts","src/index.ts"],"sourcesContent":[null,null,"import {enable, disable} from \"./cookies\";\n\nexport {\n    enable,\n    disable\n}"],"names":[],"version":3,"file":"types.d.ts.map"}
