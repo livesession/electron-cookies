@@ -1855,6 +1855,12 @@ function $28ae269cace41277$export$e20fbacbb41798b() {
 }
 
 
+(()=>{
+    window.ElectronCookies = {
+        enable: $28ae269cace41277$export$d7c4a0dd6a4567e5,
+        disable: $28ae269cace41277$export$e20fbacbb41798b
+    };
+})();
 
 
 export {$28ae269cace41277$export$d7c4a0dd6a4567e5 as enable, $28ae269cace41277$export$e20fbacbb41798b as disable};

@@ -4807,6 +4807,12 @@ function $676e32d46eeedaee$export$e20fbacbb41798b() {
 }
 
 
+(()=>{
+    window.ElectronCookies = {
+        enable: $676e32d46eeedaee$export$d7c4a0dd6a4567e5,
+        disable: $676e32d46eeedaee$export$e20fbacbb41798b
+    };
+})();
 
 
 //# sourceMappingURL=main.js.map
